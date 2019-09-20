@@ -38,7 +38,7 @@ make clean
 
 ## License
 
-There's no license per se for GitHub issues so I've used the license attached to in provider.
+There's no license per se for GitHub issues so I've used the license attached to in provider (MPL v2).
 
 <-- Linkies -->
 
