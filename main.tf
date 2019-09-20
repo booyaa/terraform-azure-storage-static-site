@@ -41,7 +41,9 @@ az storage blob service-properties update \
     --404-document index.html \
     --index-document index.html
 EOF
-
   }
 }
 
+output "static_site_account_name" {
+  value = azurerm_storage_account.static_site_asa.name
+}
