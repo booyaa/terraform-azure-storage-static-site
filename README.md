@@ -6,7 +6,7 @@ I'm using this repo to play around with the suggested work arounds to get a bett
 
 If you want to just use the functionality, someone's turned a workaround into a Terraform [module][tf_module].
 
-## Usage
+## Setup
 
 It's assumed you've got the following settup and working:
 
@@ -17,6 +17,11 @@ It's assumed you've got the following settup and working:
 Authentication is through the [CLI][tf_azure_login].
 
 Tip: If you've got [tfenv][tfenv] (terraform version manager) and don't use Terraform v0.12 yet you can install it just for this project using `tfenv install`.
+
+- clone the repo
+- `make setup` - fill out required details in `azure.tfvars`
+
+## Usage
 
 ```sh
 make build
