@@ -40,7 +40,7 @@ make clean
 
 There's no license per se for GitHub issues so I've used the license attached to in provider.
 
-<-- Linkies --->
+<-- Linkies -->
 
 [gh_issue]: https://github.com/terraform-providers/terraform-provider-azurerm/issues/1903
 [tf_local_exec]: https://www.terraform.io/docs/provisioners/local-exec.html
