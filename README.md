@@ -19,9 +19,8 @@ Authentication is through the [CLI][tf_azure_login].
 Tip: If you've got [tfenv][tfenv] (terraform version manager) and don't use Terraform v0.12 yet you can install it just for this project using `tfenv install`.
 
 ```sh
-terraform init
-terraform plan
-terraform apply
+make build
+make deploy
 ```
 
 WARNING: Applying this terraform plan may incurr a cost on your Azure billing!
@@ -29,7 +28,7 @@ WARNING: Applying this terraform plan may incurr a cost on your Azure billing!
 ### To tear down
 
 ```sh
-terraform destroy
+make clean
 ```
 
 ## License
