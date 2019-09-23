@@ -2,7 +2,7 @@
 
 The Azure Terraform provider doesn't provide a way to enable static site mode on Azure Storage Accounts. Various workarounds were provided as part of the GitHub issue raised [#1903][gh_issue] that used Terraform's [local-exec][tf_local_exec] provisioner.
 
-I'm using this repo to play around with the suggested work arounds to get a better understanding of how [local-exec][tf_loca_exec] works.
+I'm using this repo to play around with the suggested work arounds to get a better understanding of how [local-exec][tf_local_exec] works.
 
 If you want to just use the functionality, someone's turned a workaround into a Terraform [module][tf_module].
 
