@@ -47,3 +47,7 @@ EOF
 output "static_site_account_name" {
   value = azurerm_storage_account.static_site_asa.name
 }
+
+output "static_site_url" {
+  value = azurerm_storage_account.static_site_asa.primary_web_endpoint
+}
